@@ -60,26 +60,26 @@ This project is implemented using `C` and Parsing of HTTP referred from <a href 
 ## How to Run
 
 ```bash
-$ git clone https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient.git
-$ cd MultiThreadedProxyServerClient
-$ make all
-$ ./proxy <port no.>
+git clone https://github.com/rai8896/Multi-Threaded-Proxy-Server.git
+cd Multi-Threaded-Proxy-Server
+make all
+./proxy <port no.>
 ```
-`Open http://localhost:port/https://www.cs.princeton.edu/`
+`Open http://localhost:<port>/http://example.com`
 
 # Note:
 - This code can only be run in Linux Machine. Please disable your browser cache.
 - To run the proxy without cache Change the name of the file (`proxy_server_with_cache.c to proxy_server_without_cache.c`) MakeFile.
 
 ## Demo
-![](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient/blob/main/pics/cache.png)
+![]( Demo
+
 - When website is opened for the first time (`url not found`) then cache will be miss.
 - Then if you again open that website again then `Data is retrieved from the cache` will be printed.
 
-## Contributing
 
-[[Back to top]](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#index)
 
-Feel free to add some useful. You can see `How this code can be extended`. Use ideas from there and feel free to fork and CHANGE. 
+👨‍💻 Author
 
-#### Enjoy CODE and pull requests are highly appreciated.
+Manish Rai
+
